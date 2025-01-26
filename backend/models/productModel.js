@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
     image: {type:Array, require:true},
     category: {type:String, require:true},
     subCategory: {type:String, require:true},
-    size: {type:Array, require:true},
+    sizes: {type:Array, require:true},
     bestSeller: {type:Boolean},
     date: {type:Number, required:true}
 })
