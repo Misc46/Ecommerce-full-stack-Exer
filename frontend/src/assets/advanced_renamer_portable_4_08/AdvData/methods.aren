@@ -1,0 +1,10 @@
+{
+  "type" : "preset",
+  "program" : "Advanced Renamer 4.08",
+  "version" : 4080000,
+  "batchmode" : "rename",
+  "pairrename" : true,
+  "namecollision.rule" : "fail",
+  "methods" : [
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "program" : "Advanced Renamer 4.08",
+  "version" : 4080000,
+  "language" : "en",
+  "rename.replacechar" : "-",
+  "rename.incnr.zeropadding" : true,
+  "rename.incnr.skipunchecked" : false,
+  "rename.wordseparator" : " .,_-()[]{}!",
+  "rename.pairrename" : true,
+  "main.list.grid" : false,
+  "main.list.limit" : 25000,
+  "main.helpgettingstarted" : true,
+  "main.checkforupdates" : true,
+  "main.methodquickadd" : true,
+  "main.startbuttonleft" : false,
+  "main.skipprerenaming" : false,
+  "main.addfilesafterbatch" : 0,
+  "main.dragdrop.sort" : true,
+  "main.menu.groupnames" : true,
+  "main.menu.position" : "auto",
+  "main.menu.sizing" : "compact",
+  "main.menu.sizing2" : "compact",
+  "main.leftpanel.width" : 370,
+  "main.foldermode" : false,
+  "main.methods.folder" : "C:\\Users\\Windows 10\\Desktop\\Exercise\\Ecommerce\\frontend\\src\\assets\\advanced_renamer_portable_4_08\\BatchMethods\\",
+  "main.folderpanel.path" : "C:\\Users\\Windows 10\\Desktop\\Exercise\\Ecommerce\\frontend\\src\\assets\\p_img1.png",
+  "main.folderpanel.showfiles" : true,
+  "main.extensionchangewarning" : true,
+  "colormode" : "auto",
+  "script.editor.tabsize" : 2,
+  "script.editor.fontsize" : 10,
+  "script.editor.scrollpasteol" : true,
+  "image.datefield" : "datetaken",
+  "image.dontanalyze" : false,
+  "video.dontanalyze" : false,
+  "music.dontanalyze" : false,
+  "document.dontanalyze" : false,
+  "image.gps.population.min" : 1000,
+  "adddir.subfolders" : true,
+  "adddir.path" : "C:\\Users\\Windows 10\\Desktop\\Exercise\\Ecommerce\\frontend\\src\\assets\\",
+  "adddir.mask" : "*.*",
+  "adddir.regex" : "",
+  "adddir.notmatching" : false,
+  "inserttag.pageindex" : 1,
+  "undo.listview.columns.width" : "",
+  "addfolderchoice.files" : "files",
+  "addfolderchoice.subfolders" : true,
+  "addfolderchoice.mask" : "*.*",
+  "addfolderchoice.regex" : "",
+  "addfolderchoice.notmatching" : false,
+  "addfolderchoice.addrootfolders" : true,
+  "addfolderchoice.addsubfolders" : false,
+  "csvimport.basefolder" : "",
+  "csvimport.separator" : ";",
+  "csvimport.header" : false,
+  "csvimport.column.original" : 1,
+  "csvimport.column.new" : 2,
+  "csvimport.encoding" : 0,
+  "csvsettings.encoding" : 0,
+  "csvsettings.separator" : ";",
+  "csvsettings.header" : true,
+  "csvsettings.quote" : "\"",
+  "csvsettings.quoteall" : false,
+  "jsconsole.filter.index" : 0,
+  "jsconsole.filter.match" : "",
+  "jsconsole.filter.matchindex" : 1,
+  "columns.files" : [
+    {
+      "type" : 5,
+      "width" : 150
+    },
+    {
+      "type" : 6,
+      "width" : 150
+    },
+    {
+      "type" : 7,
+      "width" : 150
+    },
+    {
+      "type" : 4,
+      "width" : 150
+    }
+  ],
+  "columns.folders" : [
+    {
+      "type" : 5,
+      "width" : 150
+    },
+    {
+      "type" : 6,
+      "width" : 150
+    },
+    {
+      "type" : 7,
+      "width" : 150
+    },
+    {
+      "type" : 4,
+      "width" : 150
+    }
+  ],
+  "windowsizes" : {
+    "Settings" : {
+      "left" : -1,
+      "top" : -1
+    },
+    "InsertTagWnd" : {
+      "left" : 388,
+      "top" : 185
+    },
+    "ARenMain" : {
+      "width" : 1237,
+      "height" : 772,
+      "left" : 233,
+      "top" : 80
+    },
+    "AddDir" : {
+      "left" : 637,
+      "top" : 184
+    }
+  },
+  "methods.defaults" : {
+    "outputfolder" : {
+      "methodname" : "outputfolder",
+      "outputfolder" : ""
+    }
+  },
+  "methods.recent" : [
+  ],
+  "patterns" : [
+  ],
+  "fav_tags" : [
+  ]
+}
