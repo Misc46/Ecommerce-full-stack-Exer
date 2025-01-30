@@ -16,8 +16,13 @@ connectCloudinary();
 
 //middleware
 app.use(express.json());
-app.use(cors());
 
+// Configure CORS
+const corsOptions = {
+  origin: 'https://exertubid-frontend.vercel.app', // Replace with your frontend domain
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 //api endpoints
 
 app.use("/api/user", userRouter);
