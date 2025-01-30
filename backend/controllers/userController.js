@@ -3,7 +3,7 @@
 
 import userModel from "../models/userModel.js";
 import validator from "validator";
-import bycrypt from "bcrypt";
+import bycrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 const createToken = (id) => {
