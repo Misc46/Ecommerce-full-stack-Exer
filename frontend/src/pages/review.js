@@ -27,7 +27,9 @@ const reviewsData = {
     ]
   };
 
-  const fakeReviews = await axios.get('https://randomuser.me/api/?results=3&nat=us,au');
+  const fakeReviews = async () => {
+    await axios.get('https://randomuser.me/api/?results=3&nat=us,au');
+  } 
   const fakeReviewsData = fakeReviews.data.results.map((review) => {
     const rating = Math.floor(Math.random() * 2) + 4;
     return {
