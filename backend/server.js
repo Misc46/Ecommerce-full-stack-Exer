@@ -19,7 +19,7 @@ app.use(express.json());
 
 // Configure CORS
 const corsOptions = {
-  origin: 'https://exertubid-frontend.vercel.app', // Replace with your frontend domain
+  origin: ['https://exertubid-frontend.vercel.app', 'https://exertubid-admin.vercel.app'], // Allow multiple origins
   optionsSuccessStatus: 200,
 };
 app.use(cors(corsOptions));
