@@ -27,17 +27,20 @@ const reviewsData = {
     ]
   };
 
-  const fakeReviews = async () => {
-    await axios.get('https://randomuser.me/api/?results=3&nat=us,au');
-  } 
-  const fakeReviewsData = fakeReviews.data.results.map((review) => {
-    const rating = Math.floor(Math.random() * 2) + 4;
-    return {
-      name: review.name.first + ' ' + review.name.last,
-      rating: rating,
-      review: reviewsData[rating.toString()][Math.floor(Math.random() * 10)],
-    };
-  })
-
-  export default fakeReviewsData
+  const getFakeReviewsData = async () => {
+    const fakeReviews = await axios.get('https://randomuser.me/api/?results=3&nat=us,au');
+    const fakeReviewsData = fakeReviews.data.results.map((review) => {
+      const rating = Math.floor(Math.random() * 2) + 4;
+      return {
+        name: review.name.first + ' ' + review.name.last,
+        rating: rating,
+        review: reviewsData[rating.toString()][Math.floor(Math.random() * 10)],
+      };
+    });
+    return fakeReviewsData;
+  };
+  
+  const fakeReviewsData = await getFakeReviewsData();
+  
+  export default fakeReviewsData;
   
