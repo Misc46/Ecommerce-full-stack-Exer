@@ -40,7 +40,5 @@ const reviewsData = {
     return fakeReviewsData;
   };
   
-  const fakeReviewsData = await getFakeReviewsData();
-  
-  export default fakeReviewsData;
+  export default getFakeReviewsData;
   
